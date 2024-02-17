@@ -1,0 +1,20 @@
+
+{"counts" :[
+    {
+        "id" : "1",
+        "count" : "80+",
+        "description" : "Satisfied Clients"
+    },{
+        "id" : "2",
+        "count" : "200+",
+        "description" : "Projects Complete"
+    },{
+        "id" : "3",
+        "count" : "200+",
+        "description" : "Reviews Given"
+    },{
+        "id" : "4",
+        "count" : "1000+",
+        "description" : "Views"
+    }
+]}
