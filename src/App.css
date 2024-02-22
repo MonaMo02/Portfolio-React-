@@ -5,9 +5,15 @@ body{
     -webkit-font-smoothing : "Roboto", sans-serif;
     -moz-osx-font-smoothing : "Roboto", sans-serif;
     font-style: normal;
+    /* background-image: url('/img/background.png'); */
     background-color: #171717;
   }
-  
+/* 
+  .App{
+    background-image: url('./img/background.png');
+    background-size: cover;
+  }
+   */
   h1, h2, h3, h3,h4, h5,h6, p{
     margin : 0px;
     color: var(--white);
@@ -15,8 +21,8 @@ body{
   
   :root{
     --background: #171717;
-    --pop1: #ff7900;
-    --pop2: #bc712d;
+    --pop1: #856ad5;
+    --pop2: #bf66a9;
     --backgrey1: #4f4f5a;
     --backgrey2: #292828;
     --white: #ffffff; 
@@ -99,7 +105,7 @@ body{
     color: #171717;
   }
   .herosec--main--img{
-    padding: 0px 10px;
+    padding: 20px 10px;
   }
   
   .herosec--main--img > img{
@@ -156,12 +162,13 @@ body{
         color: var(--white);
         border: 1px solid var(--white);
         margin-left: 200px;
+        /* background-color: var(--backgrey1); */
     }
 
     .btn-outline-primary:hover{
         color: var(--white);
         border: 1px solid var(--backgrey1);
-        background-color: var(--background);
+        background-color: var(--backgrey1);
     }
   /* Header section */
 
@@ -186,7 +193,7 @@ body{
     .divider {
         margin: 0;
         border: none;
-        border-right: 8px solid var(--pop1);  
+        border-right: 8px solid var(--pop2);  
         height: 90%;      
         border-radius: 5px;
     }
@@ -201,4 +208,53 @@ body{
     }
     .count--description{
         font-size: 20px;
+    }
+
+    /* about me */
+
+    .aboutme--section{
+      padding: 100px 100px;
+    }
+    .aboutme--section--container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 64px;
+
+    }
+
+    .aboutme--section--content{
+      padding-top: 60px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .aboutme--section--title{
+      display: inline-block;
+      font-size: 40px;
+      color: var(--white);
+      padding: 30px;
+      padding-bottom: 0px;
+      /* border-bottom: 5px solid var(--pop1);
+      border-radius: 5px; */
+    }
+    .underline{
+      border-bottom: 5px solid var(--pop2);
+      border-radius: 5px;
+      width: 150px;
+      margin-left: 25px;
+      display:  block;
+    }
+    .aboutme--section--desc{
+      padding: 30px 20px;
+      width: 80%;
+      /* border: 5px solid var(--pop1);
+      border-radius: 20px; */
+    }
+    .aboutme--section--img{
+      padding: 20px;
+    }
+
+    .aboutme--section--img > img{
+      padding: 10px;
+      height: 90%;
+      width: 100%;
     }

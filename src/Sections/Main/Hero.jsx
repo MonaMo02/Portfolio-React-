@@ -17,7 +17,7 @@ export default function Hero(){
                     </div>
                 </div>
                 <div className="herosec--main--img">
-                    <img src="./img/NEWHERO.png" alt="Hero" />
+                    <img src="./img/Finalhero.png" alt="Hero" />
                 </div>
             </div>
         </div>
