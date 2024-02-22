@@ -213,7 +213,7 @@ body{
     /* about me */
 
     .aboutme--section{
-      padding: 100px 100px;
+      padding: 20px 100px;
     }
     .aboutme--section--container{
       display: grid;
@@ -239,7 +239,7 @@ body{
     .underline{
       border-bottom: 5px solid var(--pop2);
       border-radius: 5px;
-      width: 150px;
+      width: 25%;
       margin-left: 25px;
       display:  block;
     }
@@ -257,4 +257,173 @@ body{
       padding: 10px;
       height: 90%;
       width: 100%;
+    }
+
+    /* SERVICES */
+
+    .services--section{
+      padding: 0px 100px;
+      align-items: center;
+      justify-items: center;
+    }
+    .services--section--title{
+      font-size: 25px;
+      padding: 10px 320px;
+      text-align: center;
+    }
+    .underline2{
+      border-bottom: 5px solid var(--pop2);
+      border-radius: 5px;
+      width: 40%;
+      margin-left: 415px;
+      display:  block;
+    }
+    .services--section--container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      padding: 30px 100px;
+      align-items: flex-start;
+    }
+    .services--section--card{
+      padding: 10px 30px;
+      width: 80%;
+      border: 3px solid var(--pop2);
+      background-color: var(--backgrey2);
+      border-radius: 20px;
+      align-items: center;
+
+    }
+    .card-1{
+      padding: 10px 30px;
+      width: 80%;
+      border: 3px solid var(--pop1);
+      background-color: var(--pop1);
+      border-radius: 20px;
+      align-items: center;
+
+    }
+    .card-1 > hr{
+      border-bottom: 5px solid var(--white);
+      border-radius: 5px;
+      width: 120px;
+      margin-left: 83px;
+      display:  block;
+    }
+    .card-1 > h3{
+      color: var(--backgrey2);
+    }
+    .card-1 > p{
+      color: var(--backgrey2);
+    }
+    .services--section--card > img{
+      width: 25%;
+      height: 30%;
+      padding: 10px 108px;
+    }
+
+    .service--card--title{
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      text-align: center;
+      color: var(--white);
+    }
+    .underline3{
+      border-bottom: 5px solid var(--pop1);
+      border-radius: 5px;
+      width: 120px;
+      margin-left: 83px;
+      display:  block;
+    }
+    .service--card--desc{
+      font-family: "Roboto", sans-serif;
+      font-size: 13px;
+      font-weight: 200;
+      text-align: center;
+      padding: 10px;
+      color: var(--white);
+    }
+
+    /* WORK IN PROGRESS */
+    .works--section{
+      padding: 50px 0px;
+      align-items: center;
+      justify-items: center;
+    }
+    .works--section--title{
+      font-size: 25px;
+      padding: 10px 320px;
+      text-align: center;
+    }
+    .underline4{
+      border-bottom: 5px solid var(--pop2);
+      border-radius: 5px;
+      width: 20%;
+      margin-left: 545px;
+      display:  block;
+    }
+    .works--section--container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      padding: 30px 100px;
+      align-items: flex-start;
+    }
+    .works--section--card{
+      padding: 10px 30px;
+      width: 80%;
+      border: 3px solid var(--pop1);
+      background-color: var(--pop1);
+      border-radius: 20px;
+      align-items: center;
+
+    }
+    .wcard-1{
+      padding: 10px 30px;
+      width: 80%;
+      border: 3px solid var(--pop2);
+      background-color: var(--backgrey2);
+      border-radius: 20px;
+      align-items: center;
+
+    }
+    .wcard-1 > hr{
+      border-bottom: 5px solid var(--pop2);
+      border-radius: 5px;
+      width: 120px;
+      margin-left: 83px;
+      display:  block;
+    }
+    .wcard-1 > h3{
+      color: var(--white);
+    }
+    .wcard-1 > p{
+      color: var(--white);
+    }
+    .works--section--card > img{
+      width: 25%;
+      height: 30%;
+      padding: 10px 108px;
+    }
+
+    .works--card--title{
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      text-align: center;
+      color: var(--backgrey2);
+    }
+    .underline5{
+      border-bottom: 5px solid var(--white);
+      border-radius: 5px;
+      width: 120px;
+      margin-left: 83px;
+      display:  block;
+    }
+    .works--card--desc{
+      font-family: "Roboto", sans-serif;
+      font-size: 13px;
+      font-weight: 200;
+      text-align: center;
+      padding: 10px;
+      color: var(--backgrey2);
     }

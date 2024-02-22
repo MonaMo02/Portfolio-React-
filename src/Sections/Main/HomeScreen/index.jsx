@@ -1,7 +1,8 @@
 import Hero from "../Hero"
 import Count from '../Counts';
 import AboutMe  from "../AboutMe";
-import Service from "../Services.jsx";
+import Services from "../Services.jsx";
+import Works from "../Working.jsx";
 
 export default function Home(){
     return(
@@ -9,7 +10,8 @@ export default function Home(){
         <Hero />
         <Count />
         <AboutMe />
-        <Service />
+        <Services />
+        <Works />
         </>
     );
 }

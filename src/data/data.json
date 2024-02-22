@@ -17,4 +17,43 @@
         "count" : "1000+",
         "description" : "Views"
     }
-]}
+],
+"services": [
+    {
+        "id" : "1",
+        "img" : "./img/ui (2).png",
+        "title" : "UI/UX Design",
+        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
+    },
+    {
+        "id" : "2",
+        "img" : "../img/experiments (1).png",
+        "title" : "Mobile Design",
+        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
+    },
+    {
+        "id" : "3",
+        "img" : "./img/coding (2).png",
+        "title" : "Web Design",
+        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
+    }
+], 
+"works": [
+    {
+        "id" : "1",
+        "img" : "../img/strategy.png",
+        "title": "Brain Storming",
+        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
+    },{
+        "id" : "2",
+        "img" : "../img/wire-frame.png",
+        "title": "Wire Frame",
+        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
+    },{
+        "id" : "3",
+        "img" : "../img/prototyping.png",
+        "title": "Prototyping",
+        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
+    }
+]
+}
