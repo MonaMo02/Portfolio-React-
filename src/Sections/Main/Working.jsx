@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Works(){
     return(
-        <section className="works--section">
+        <section id='Working' className="works--section">
             <div className="works--section--title">
                 <h2>My Working Process</h2>
             </div>

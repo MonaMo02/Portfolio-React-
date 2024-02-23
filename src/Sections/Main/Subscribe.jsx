@@ -1,6 +1,6 @@
 export default function Subscribe(){
     return(
-        <section className="subscribe--section">
+        <section id="Subscribe" className="subscribe--section">
             <div className="subscribe--section--title">
                 <h1>SUBSCRIBE</h1>
             </div>

@@ -95,9 +95,9 @@ export default function Header() {
                         smooth = {true}
                         offset={-70}
                         duration={500}
-                        to="Portfolio"
+                        to="ClientSpeak"
                         className="navbar--content">
-                            Portfolio
+                            Testimonial
                         </Link>
                     </li>
                 </ul>

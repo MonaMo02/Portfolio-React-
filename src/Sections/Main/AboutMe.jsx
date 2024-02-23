@@ -1,6 +1,6 @@
 export default function AboutMe(){
     return(
-        <section className="aboutme--section">
+        <section id="AboutMe" className="aboutme--section">
             <div className="aboutme--section--container">
             <div className="aboutme--section--img">
                     <img src="./img/Aboutme (1).png" alt="about me" />

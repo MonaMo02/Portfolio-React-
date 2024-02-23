@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Count(){
     return(
-        <section className="counts--section">
+        <section id='Statistics' className="counts--section">
     <div className="counts--section--container">
         {data?.counts?.map((item, index) => (
             <div key={index} className='count--section--card' >

@@ -55,5 +55,77 @@
         "title": "Prototyping",
         "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex Necessitatibus hic reprehenderit ratione accusantium aperiam assumenda, a iste nulla omnis nesciunt quis sunt minima, reiciendis quos facere quo obcaecati, doloribus ex."
     }
+],
+"footer_lists": [
+    {
+        "id" : "1",
+        "title" : "Information",
+        "list":[
+            {
+                "id" : "1",
+                "title" : "About Us"
+            },
+            {
+                "id" : "2",
+                "title" : "Store Location"
+            },
+            {
+                "id" : "3",
+                "title" : "Contact Us"
+            },
+            {
+                "id" : "4",
+                "title" : "Shipping & Delivery"
+            },
+            {
+                "id" : "5",
+                "title" : "Latest Offers"
+            }
+        ]
+    },
+    {
+        "id" : "2",
+        "title" : "Our Services",
+        "list":[
+            {
+                "id" : "1",
+                "title" : "Privacy Policy"
+            },
+            {
+                "id" : "2",
+                "title" : "Term of Sale"
+            },
+            {
+                "id" : "3",
+                "title" : "Customer Service"
+            },
+            {
+                "id" : "4",
+                "title" : "Payment"
+            }
+        ]
+    },
+    {
+        "id" : "3",
+        "title" : "Account",
+        "list":[
+            {
+                "id" : "1",
+                "title" : "My Account"
+            },
+            {
+                "id" : "2",
+                "title" : "My Shop"
+            },
+            {
+                "id" : "3",
+                "title" : "My Cart"
+            },
+            {
+                "id" : "4",
+                "title" : "Checkout"
+            }
+        ]
+    }
 ]
 }

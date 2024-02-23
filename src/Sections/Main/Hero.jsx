@@ -1,7 +1,7 @@
 
 export default function Hero(){
     return(
-        <div className="herosec--main">
+        <div id="Home" className="herosec--main">
             <div className="herosec--main--container">
                 <div className="herosec--main--content">
                     <div className="herosec--main--title">

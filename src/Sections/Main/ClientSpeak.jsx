@@ -1,6 +1,6 @@
 export default function Reviews(){
     return(
-        <section className="reviews--section">
+        <section id="ClientSpeak" className="reviews--section">
             <div className="reviews--section--container">
                 <div className="reviews--section--content">
                     <div className="reviews--section--title">

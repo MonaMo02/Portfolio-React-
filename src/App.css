@@ -570,4 +570,64 @@ body{
       text-align: center;
     }
 
-    
+/* fOOTER */
+
+.footer{
+  background-color: var(--pop1);
+}
+.footer--container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  padding: 0px;
+}
+
+.footer--LOGO{
+  padding: 10px 50px;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.footer--LOGO > h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 5px 30px;
+  display: inline-block;
+}
+
+.footer--LOGO > img{
+  margin-left: 55px;
+}
+.img--list{
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 5px 20px;
+  width: 50%;
+}
+.img--list > img{
+  width: 35%;
+}
+
+.footer--lists--container{
+  padding: 10px 0px;
+  padding-top: 50px;
+} 
+.footer--lists--container > div > h3{
+  padding-left: 39px;
+  font-family: 'Roboto', sans-serif;
+}
+.list > ul{
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer--divider{
+  border: 1px solid var(--backgrey1);
+}
+.rights{
+  font-family: 'roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0px;
+}
