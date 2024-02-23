@@ -3,6 +3,7 @@ import Count from '../Counts';
 import AboutMe  from "../AboutMe";
 import Services from "../Services.jsx";
 import Works from "../Working.jsx";
+import Reviews from "../ClientSpeak.jsx";
 
 export default function Home(){
     return(
@@ -12,6 +13,7 @@ export default function Home(){
         <AboutMe />
         <Services />
         <Works />
+        <Reviews />
         </>
     );
 }

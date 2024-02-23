@@ -59,6 +59,9 @@ body{
     line-height: 21px;
     padding-top: 5px;
   }
+
+
+  /* unique identifiers, wearables, sensors, chip transponder,   process automation, traffic flow, potential issues, privacy concerns, let alone, create headaches, adresse these chanllenges  */
   
   /* header start */
   
@@ -108,10 +111,6 @@ body{
     padding: 20px 10px;
   }
   
-  .herosec--main--img > img{
-    width: 90%;
-    height: 90%;
-  }
   
   /* Hero end */
   
@@ -253,11 +252,7 @@ body{
       padding: 20px;
     }
 
-    .aboutme--section--img > img{
-      padding: 10px;
-      height: 90%;
-      width: 100%;
-    }
+    
 
     /* SERVICES */
 
@@ -426,4 +421,69 @@ body{
       text-align: center;
       padding: 10px;
       color: var(--backgrey2);
+    }
+
+    /* CLIENT SPEAK */
+
+    .reviews--section{
+      padding: 0px 100px;
+    }
+
+    .reviews--section > p{
+      font-size: 15px;
+    }
+    .reviews--section--container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 64px;
+    }
+
+    .reviews--section--content{
+      padding: 50px 20px;
+    }
+
+    .reviews--section--title{
+      display: inline-block;
+      font-size: 40px;
+      color: var(--white);
+    }
+    .reviews--section--title > hr{
+      margin-left: 0px;
+      width: 80%;
+    }
+
+    .reviews--section--desc{
+      padding: 30px 0px;
+      width: 80%;
+    }
+
+    .reviews--section--img{
+      padding: 20px;
+    }
+
+    .reviewer--name{
+      padding-left: 250px;
+      color: var(--pop1);
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+    }
+
+    .reviews--section--desc > hr{
+      margin-left: 250px;
+      color: var(--pop1);
+      width: 120px;
+    }
+
+    .review--rating > hr{
+      margin-left: 0px;
+      width: 40px;
+    }
+
+    .review--starts{
+      display: flex;
+      gap: 5px;
+    }
+
+    .star{
+      padding: 0px 5px;
     }
