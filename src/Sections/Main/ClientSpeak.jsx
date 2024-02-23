@@ -33,6 +33,9 @@ export default function Reviews(){
                 </div>
 
             </div>
+            <div className="bubbles"> 
+                <img src="./img/mybubbles.png" alt="bubbles" />
+            </div>
         </section>
     );
 }

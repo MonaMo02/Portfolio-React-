@@ -60,6 +60,14 @@ body{
     padding-top: 5px;
   }
 
+  .text-md{
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
 
   /* unique identifiers, wearables, sensors, chip transponder,   process automation, traffic flow, potential issues, privacy concerns, let alone, create headaches, adresse these chanllenges  */
   
@@ -487,3 +495,79 @@ body{
     .star{
       padding: 0px 5px;
     }
+
+    .bubbles{
+      padding-left: 525px;
+      align-items: center;
+    }
+
+    .bubbles > img{
+      width: 15%;
+    }
+
+    /* SUBSCRIBE */
+
+    .subscribe--section{
+      padding: 40px 100px;
+      align-items: center;
+    }
+    .subscribe--section > hr{
+      margin-left: 490px;
+      width: 15%;
+    }
+    .subscribe--section--title{
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      color: var(--white);
+    }
+
+    .subscribe--section--paragraph{
+      width: 70%;
+      text-align: center;
+      padding: 15px 160px;
+      font-size: 17px;
+    }
+
+    .subscribe--form{
+      padding: 20px ;
+      margin-left: 200px;
+    }
+    
+    .subscribe--form--container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-left: 60px;
+    }
+
+    .Email_subscription{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10.6px;
+      flex: 1 0 0;
+      width: 100%;
+    }
+
+    .subscribe--input{
+      display: flex;
+      font-family: "roboto", sans-serif;
+      padding: 16px;
+      align-items: center;
+      align-self: stretch;
+      border-radius: 8px;
+      border: 1.33px solid var(--backgrey1);
+      background: var(--backgrey1);
+      color: var(--white);
+    }
+    .subscribe--form--btn{
+      padding: 16px;
+      width: 30%;
+      border: 1.33px solid var(--backgrey1);
+      background: var(--backgrey1);
+      height: 98%;
+      text-align: center;
+    }
+
+    

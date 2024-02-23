@@ -4,6 +4,7 @@ import AboutMe  from "../AboutMe";
 import Services from "../Services.jsx";
 import Works from "../Working.jsx";
 import Reviews from "../ClientSpeak.jsx";
+import Subscribe from "../Subscribe.jsx";
 
 export default function Home(){
     return(
@@ -14,6 +15,7 @@ export default function Home(){
         <Services />
         <Works />
         <Reviews />
+        <Subscribe />
         </>
     );
 }
